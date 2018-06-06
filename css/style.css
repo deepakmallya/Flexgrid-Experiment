@@ -1,0 +1,131 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;*/
+
+html{
+  font-size: 16px;
+  background-color: #Fbfbfb;
+}
+
+body{
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', serif;
+}
+
+p{
+  margin:0;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.85rem;
+  color: #888888;
+}
+
+h1{
+  margin: 0;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  color: #2c2c2c;
+}
+
+h3{
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+h6{
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding-right: 4vh;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: #2c2c2c;
+  display: inline;
+  margin: 2vh 4vh;
+}
+
+.lhs{
+  /*background-color: red;*/
+  border-right: 1px #E0E0E0 solid;
+}
+
+.rhs{
+  /*background-color: green;*/
+  padding-left: 8vh;
+}
+.bg3{
+  background-color: blue;
+}
+
+#main-header{
+  margin: 4vh 0;
+}
+
+.fraction{
+  padding-right: 12vh;
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.main-image{
+  padding-top: 6vh;
+  height: 50vh;
+}
+
+.ps{
+  font-size: 0.9rem;
+}
+
+.deco{
+  border-bottom: 2px dotted #E0E0E0;
+}
+
+.sec1{
+  padding-top: 6vh;
+}
+
+.sec2{
+  padding-top: 3vh;
+}
+
+.hamb{
+  margin: 3vh 10vh;
+}
+
+.rotgroup{
+  padding-top: 7vh;
+  margin-left: -4vh;
+}
+
+.rotext{
+  padding-top: 17vh;
+  padding-right: 6vh;
+  /* Safari */
+-webkit-transform: rotate(-90deg);
+/* Firefox */
+-moz-transform: rotate(-90deg);
+/* IE */
+-ms-transform: rotate(-90deg);
+/* Opera */
+-o-transform: rotate(-90deg);
+}
+
+button{
+  display: block;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-color: blue;
+  top: 62.4rem;
+}
